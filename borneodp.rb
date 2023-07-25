@@ -9,7 +9,7 @@ class Borneodp < Formula
 
   on_macos do
     url "https://github.com/borneodata/homebrew-borneodp/releases/download/v3.7.0/deploy-dataplane_Darwin_all.tar.gz"
-    sha256 "bf7e8e3c8abbd3baf42d35cc8874747f2428d2d9e468e358210420a39b6dc628"
+    sha256 "765f832784d3c1b43f8a4b8d26a7a56037fb5bcaa2f7daf4131cf2f38bee8942"
 
     def install
       bin.install "deploy-dataplane" => "borneodp"
@@ -19,7 +19,7 @@ class Borneodp < Formula
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/borneodata/homebrew-borneodp/releases/download/v3.7.0/deploy-dataplane_Linux_arm64.tar.gz"
-      sha256 "b0d04e00e4f8d4eb58a7ea8a341abaf2e5118ef0924137ebc66c38e09bef1154"
+      sha256 "a69c9e3398828c80ed84879dc75395726df842e60751a4ebc9f069c7dd61a110"
 
       def install
         bin.install "deploy-dataplane" => "borneodp"
@@ -27,7 +27,7 @@ class Borneodp < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/borneodata/homebrew-borneodp/releases/download/v3.7.0/deploy-dataplane_Linux_x86_64.tar.gz"
-      sha256 "f47a1340128f006f93f3b97a0b89c0750906ac22f6d2c0359105d4968a27f783"
+      sha256 "da9289d6a08f66ce53b7e705d7408228231164fc502b84bc6f41f00087fe2e58"
 
       def install
         bin.install "deploy-dataplane" => "borneodp"
