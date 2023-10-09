@@ -4,16 +4,16 @@
 class BorneoCli < Formula
   desc "Command Line Interface (CLI) for the Borneo API"
   homepage "https://www.borneo.io/"
-  version "3.8.0-alpha.3"
+  version "3.8.0-alpha.4"
   version_scheme 1
 
-  url "https://github.com/borneodata/homebrew-tap/releases/download/v3.8.0-alpha.3/borneo-cli-v3.8.0-alpha.3-bc4953973-darwin-arm64.tar.gz"
-  sha256 "ee7b6f39e0361a438097941b10c927ac58dd7e39637b44a76b3b1f206aaffced"
+  url "https://github.com/borneodata/homebrew-tap/releases/download/v3.8.0-alpha.4/borneo-cli-v3.8.0-alpha.4-e48590bc5-darwin-arm64.tar.gz"
+  sha256 "e8395ae9cc7f6064afd963beb8317afff7364b6ca4792b569e6e33e5652aeb25"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/borneodata/homebrew-tap/releases/download/v3.8.0-alpha.3/borneo-cli-v3.8.0-alpha.3-bc4953973-darwin-x64.tar.gz"
-      sha256 "736984bb407866c3b822f3e2057b299312176e7d95137d992a1a13b8406c3a4a"
+      url "https://github.com/borneodata/homebrew-tap/releases/download/v3.8.0-alpha.4/borneo-cli-v3.8.0-alpha.4-e48590bc5-darwin-x64.tar.gz"
+      sha256 "8d5f552b5e3874787778fb25b6b20e05aab3a442ba7e5c09114adcc5b69108a8"
     end
   end
 
