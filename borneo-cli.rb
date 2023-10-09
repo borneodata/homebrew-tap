@@ -7,13 +7,13 @@ class BorneoCli < Formula
   version "3.8.0-alpha.4"
   version_scheme 1
 
-  url "https://github.com/borneodata/homebrew-tap/releases/download/v3.8.0-alpha.4/borneo-cli-v3.8.0-alpha.4-2d62f9a7d-darwin-arm64.tar.gz"
-  sha256 "e9a2a3e7ec307787927ec7b21c0de40b88aba477e056a3fc702773c2d141eedd"
+  url "https://github.com/borneodata/homebrew-tap/releases/download/v3.8.0-alpha.4/borneo-cli-v3.8.0-alpha.4-28e1e496f-darwin-arm64.tar.gz"
+  sha256 "ca8ed7526924fa21b62565fc209c575b9ba4de57fc1ec147073a93d0d33ca6a8"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/borneodata/homebrew-tap/releases/download/v3.8.0-alpha.4/borneo-cli-v3.8.0-alpha.4-2d62f9a7d-darwin-x64.tar.gz"
-      sha256 "7ea8a5b5ff29c98b4060aec4371496e5a55c2c71bab672f255ec94a83a69716b"
+      url "https://github.com/borneodata/homebrew-tap/releases/download/v3.8.0-alpha.4/borneo-cli-v3.8.0-alpha.4-28e1e496f-darwin-x64.tar.gz"
+      sha256 "eb1c2e0f6a4d77b787db58434969d7daf769d25b7c68733d7f5178b98e7b0e82"
     end
   end
 
