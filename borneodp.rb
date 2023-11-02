@@ -5,7 +5,7 @@
 class Borneodp < Formula
   desc "Command Line Interface (CLI) for managing Borneo Data Plane Deployments"
   homepage "https://www.borneo.io/"
-  version "3.8.1"
+  version "3.8.2"
 
   on_macos do
     url "https://github.com/borneodata/homebrew-tap/releases/download/v3.8.2/deploy-dataplane_Darwin_all.tar.gz"
