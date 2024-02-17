@@ -4,11 +4,11 @@
 class BorneoCli < Formula
   desc "Command Line Interface (CLI) for the Borneo API"
   homepage "https://www.borneo.io/"
-  version "3.9.1"
+  version "3.10.0"
   version_scheme 1
 
-  url "https://github.com/borneodata/homebrew-tap/releases/download/v3.9.1/borneo-v3.9.1-b23678aa3-darwin-arm64.tar.gz"
-  sha256 "8412428126bd3a685d6980dcc79d0c09dd58c9199074c2ae750a3bc1077a8fd1"
+  url "https://github.com/borneodata/homebrew-tap/releases/download/v3.10.0/borneo-v3.10.0-7a34edc-darwin-arm64.tar.gz"
+  sha256 "6155bc18363fd103bb7b7907b4255cdc45cd8eb8ef404b4d52c11c60fd0aba43"
 
   on_macos do
     if Hardware::CPU.intel?
