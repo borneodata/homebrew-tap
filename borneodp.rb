@@ -7,9 +7,16 @@ class Borneodp < Formula
   homepage "https://www.borneo.io/"
   version "3.9.0"
 
+  URL_DARWIN="https://github.com/borneodata/homebrew-tap/releases/download/v3.9.0/deploy-dataplane_Darwin_all.tar.gz"
+  URL_ARM64="https://github.com/borneodata/homebrew-tap/releases/download/v3.9.0/deploy-dataplane_Linux_arm64.tar.gz"
+  URL_X86="https://github.com/borneodata/homebrew-tap/releases/download/v3.9.0/deploy-dataplane_Linux_x86_64.tar.gz"
+  SHA_DARWIN="0ef010ea2af08b36509b5c26e1464ca859b6ddc7368129ed650c3dec2818c8f5"
+  SHA_ARM64="03293420a0d788abc50976480500ab6aad6f3a6e00300518cb58c9569991765e"
+  SHA_X86="481cc6002b59e39db83bc25afe0458ef9ef41e4aed5c7d6fdc4ac00d7c4bef4b"
+
   on_macos do
-    url "https://github.com/borneodata/homebrew-tap/releases/download/v3.9.0/deploy-dataplane_Darwin_all.tar.gz"
-    sha256 "0ef010ea2af08b36509b5c26e1464ca859b6ddc7368129ed650c3dec2818c8f5"
+    url URL_DARWIN
+    sha256 SHA_DARWIN
 
     def install
       bin.install "deploy-dataplane" => "borneodp"
@@ -18,16 +25,16 @@ class Borneodp < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/borneodata/homebrew-tap/releases/download/v3.9.0/deploy-dataplane_Linux_arm64.tar.gz"
-      sha256 "03293420a0d788abc50976480500ab6aad6f3a6e00300518cb58c9569991765e"
+      url URL_ARM64
+      sha256 SHA_ARM
 
       def install
         bin.install "deploy-dataplane" => "borneodp"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/borneodata/homebrew-tap/releases/download/v3.9.0/deploy-dataplane_Linux_x86_64.tar.gz"
-      sha256 "481cc6002b59e39db83bc25afe0458ef9ef41e4aed5c7d6fdc4ac00d7c4bef4b"
+      url URL_X86
+      sha256 SHA_X86
 
       def install
         bin.install "deploy-dataplane" => "borneodp"
