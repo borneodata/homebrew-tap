@@ -19,7 +19,7 @@ class Borneodp < Formula
     sha256 SHA_DARWIN
 
     def install
-      bin.install "deploy-dataplane" => "borneodp"
+      bin.install "homebrew-tap" => "borneodp"
     end
   end
 
@@ -29,7 +29,7 @@ class Borneodp < Formula
       sha256 SHA_ARM
 
       def install
-        bin.install "deploy-dataplane" => "borneodp"
+        bin.install "homebrew-tap" => "borneodp"
       end
     end
     if Hardware::CPU.intel?
@@ -37,7 +37,7 @@ class Borneodp < Formula
       sha256 SHA_X86
 
       def install
-        bin.install "deploy-dataplane" => "borneodp"
+        bin.install "homebrew-tap" => "borneodp"
       end
     end
   end
