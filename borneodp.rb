@@ -7,12 +7,12 @@ class Borneodp < Formula
   homepage "https://www.borneo.io/"
   version "v3.10.0"
 
-  URL_DARWIN="https://github.com/borneodata/homebrew-tap/releases/download/v3.10.0/homebrew-tap_Darwin_all.tar.gz"
-  URL_ARM64="https://github.com/borneodata/homebrew-tap/releases/download/v3.10.0/homebrew-tap_Linux_arm64.tar.gz"
-  URL_X86="https://github.com/borneodata/homebrew-tap/releases/download/v3.10.0/homebrew-tap_Linux_x86_64.tar.gz"
-  SHA_DARWIN="edf3e71dd83c3021cacf2b641c271331e38924723e4542638c0f13ef040e5e05"
-  SHA_ARM64="998fb5c559ea19648a8fe776dfc47f31e75068fb2c4efa1af9c12c88b0c9e29f"
-  SHA_X86="f469f4967fe0c0e1700aa01116dc246158291108ecd4c82696da98a056947df9"
+  URL_DARWIN="https://github.com/borneodata/homebrew-tap/releases/download/v3.10.0/deploy-dataplane_Darwin_all.tar.gz"
+  URL_ARM64="https://github.com/borneodata/homebrew-tap/releases/download/v3.10.0/deploy-dataplane_Linux_arm64.tar.gz"
+  URL_X86="https://github.com/borneodata/homebrew-tap/releases/download/v3.10.0/deploy-dataplane_Linux_x86_64.tar.gz"
+  SHA_DARWIN="36d722ac09b8cedcc919fa9260cb3f902f28c2f69d4599ed223579f7cd8fca58"
+  SHA_ARM64="abf994b7bade6c7a5f2370eb5e477b1e7b98a758dc30dc0b2fc64ba383d655c3"
+  SHA_X86="600c7cdce61adc3a7f985b29a48c5523c78b17fade47b4680a1d46537ac2a94e"
 
   on_macos do
     url URL_DARWIN
