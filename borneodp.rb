@@ -5,14 +5,14 @@
 class Borneodp < Formula
   desc "Command Line Interface (CLI) for managing Borneo Data Plane Deployments"
   homepage "https://www.borneo.io/"
-  version "v3.11.5"
+  version "v3.12.0"
 
-  URL_DARWIN="https://github.com/borneodata/homebrew-tap/releases/download/v3.11.5/deploy-dataplane_Darwin_all.tar.gz"
-  URL_ARM64="https://github.com/borneodata/homebrew-tap/releases/download/v3.11.5/deploy-dataplane_Linux_arm64.tar.gz"
-  URL_X86="https://github.com/borneodata/homebrew-tap/releases/download/v3.11.5/deploy-dataplane_Linux_x86_64.tar.gz"
-  SHA_DARWIN="aa229ba1d4ba41bacc5e397392ca3647d28c9aaf892b990b9a9d8f2bcf5ab4c1"
-  SHA_ARM64="e6681750bc7a766c44b5abd82f6a8b543f78287c18ef626d2478143900f160dc"
-  SHA_X86="84091eb0ec78d7a8fedc84a8b66d5163f0189d84825f3537c2749d44614d5ab8"
+  URL_DARWIN="https://github.com/borneodata/homebrew-tap/releases/download/v3.12.0/deploy-dataplane_Darwin_all.tar.gz"
+  URL_ARM64="https://github.com/borneodata/homebrew-tap/releases/download/v3.12.0/deploy-dataplane_Linux_arm64.tar.gz"
+  URL_X86="https://github.com/borneodata/homebrew-tap/releases/download/v3.12.0/deploy-dataplane_Linux_x86_64.tar.gz"
+  SHA_DARWIN="5217bbf70d6046ae53d8516c35cd6d5ed36779a8805f24b0eb0ec13185dfaeb9"
+  SHA_ARM64="d92d6054f684372d67ae9a6004effa49d26b10c11ec35591df69d2e2ac283225"
+  SHA_X86="79ddca110ed17df58d0e13600008e05cf70a1f59db0479180213d30ed4a3fe9d"
 
   on_macos do
     url URL_DARWIN
