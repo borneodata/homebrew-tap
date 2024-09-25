@@ -4,13 +4,13 @@
 class BorneoCli < Formula
   desc "Command Line Interface (CLI) for the Borneo API"
   homepage "https://www.borneo.io/"
-  version "v3.14.1"
+  version "v3.14.3"
   version_scheme 1
 
-  URL_ARM="https://github.com/borneodata/homebrew-tap/releases/download/borneo-v3.14.1-cli/borneo-v3.14.1-c0dcab6-darwin-arm64.tar.gz"
-  SHA_ARM="c7e9e885b7de77e5980f8a4110d4fc83c41f5702dc8aeb48928e1f9df9b13ce5"
-  URL_X64="https://github.com/borneodata/homebrew-tap/releases/download/borneo-v3.14.1-cli/borneo-v3.14.1-c0dcab6-darwin-x64.tar.gz"
-  SHA_X64="bf9701c6eb1b75b326065f2e9813fd310b8f57440c969dde5f0eaa0c9637be47"
+  URL_ARM="https://github.com/borneodata/homebrew-tap/releases/download/borneo-v3.14.3-cli/borneo-v3.14.2-b091047-darwin-arm64.tar.gz"
+  SHA_ARM="63912229281b82a02be58ae0541b3c6bb5d609b91708dcbfed7c27e1b713080d"
+  URL_X64="https://github.com/borneodata/homebrew-tap/releases/download/borneo-v3.14.3-cli/borneo-v3.14.2-b091047-darwin-x64.tar.gz"
+  SHA_X64="9e118b16fbbcbdd0efc9dd3068efa3520e91236ad6386404397185456a3362ce"
 
   url URL_ARM
   sha256 SHA_ARM
